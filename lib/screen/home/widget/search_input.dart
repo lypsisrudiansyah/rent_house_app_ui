@@ -12,14 +12,15 @@ class SearchInput extends StatelessWidget {
           filled: true,
           border: OutlineInputBorder(
             borderSide: BorderSide.none,
-            borderRadius: BorderRadius.circular(8),
+            borderRadius: BorderRadius.circular(20),
           ),
-          hintText: 'Search here ...',
+          hintText: 'Search home ...',
           prefixIcon: Container(
             padding: EdgeInsets.all(15),
             child: SvgPicture.asset('assets/icons/search.svg'),
           ),
-          contentPadding: const EdgeInsets.all(2),
+          //* 0-5 tidak terlalu begitu kerasa perbedaannya
+          contentPadding: const EdgeInsets.all(3),
         ),
       ),
     );
