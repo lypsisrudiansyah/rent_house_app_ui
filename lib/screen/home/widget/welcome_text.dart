@@ -9,7 +9,7 @@ class WelcomeText extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Hello Rudiansyah',
+            'Hello Rudiansyah :)',
             style: Theme.of(context).textTheme.bodyText1!.copyWith(fontSize: 16, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 10),
