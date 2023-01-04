@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_house_rent/screen/home/widget/best_offer.dart';
 import 'package:flutter_house_rent/screen/home/widget/categories_widget.dart';
 import 'package:flutter_house_rent/screen/home/widget/custom_appbar.dart';
 import 'package:flutter_house_rent/screen/home/widget/recommended_house.dart';
@@ -20,6 +21,7 @@ class HomeScreen extends StatelessWidget {
               SearchInput(),
               CategoriesWidget(),
               RecommendedHouse(),
+              BestOffer(),
             ],
           ),
         ),

@@ -17,9 +17,9 @@ class House {
   static List<House> generateBestOffer() {
     return [
       House('Sweet Home', 'Blok M Jakarta',
-          'assets/images/house01.jpeg'),
+          'assets/images/offer01.jpeg'),
       House('Elite House', 'South Jakarta',
-          'assets/images/house02.jpeg'),
+          'assets/images/offer02.jpeg'),
     ];
   }
 

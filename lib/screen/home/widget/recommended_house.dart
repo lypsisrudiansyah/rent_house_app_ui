@@ -24,7 +24,7 @@ class RecommendedHouse extends StatelessWidget {
             },
             child: Container(
               width: 230,
-              padding: EdgeInsets.all(10),
+              padding: EdgeInsets.all(7),
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(8),
@@ -33,6 +33,7 @@ class RecommendedHouse extends StatelessWidget {
                 children: [
                   Container(
                     decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8),
                       image: DecorationImage(
                         image: AssetImage(
                           recommendedList[index].imageUrl,
@@ -69,7 +70,7 @@ class RecommendedHouse extends StatelessWidget {
                                       fontWeight: FontWeight.bold,
                                     ),
                               ),
-                              const SizedBox(height: 5),
+                              // const SizedBox(height: 5),
                               Text(
                                 recommendedList[index].address,
                                 style: Theme.of(context).textTheme.bodyText1!.copyWith(
