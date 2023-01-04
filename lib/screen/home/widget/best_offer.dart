@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_house_rent/model/house.dart';
+import 'package:flutter_house_rent/screen/home/widget/best_offer_item_widget.dart';
 
 class BestOffer extends StatelessWidget {
   final listOffer = House.generateBestOffer();
@@ -28,6 +29,9 @@ class BestOffer extends StatelessWidget {
           ),
           const SizedBox(
             height: 10.0,
+          ),
+          ...listOffer.map(
+            (houseData) => BestOfferItemWidget(house: houseData),
           ),
         ],
       ),
