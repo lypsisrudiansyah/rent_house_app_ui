@@ -15,7 +15,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
               'assets/icons/menu.svg',
             ),
           ),
-          const CircleAvatar(backgroundImage: AssetImage('assets/images/avatar.jpeg'))
+          const CircleAvatar(backgroundImage: AssetImage('assets/images/profile.png'))
         ],
       ),
     );
