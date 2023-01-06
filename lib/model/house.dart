@@ -20,6 +20,10 @@ class House {
           'assets/images/offer01.jpeg'),
       House('Elite House', 'South Jakarta',
           'assets/images/offer02.jpeg'),
+      House('Sweet Home', 'Blok M Jakarta',
+          'assets/images/offer01.jpeg'),
+      House('Elite House', 'South Jakarta',
+          'assets/images/offer02.jpeg'),
     ];
   }
 
