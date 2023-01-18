@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_house_rent/model/house.dart';
 import 'package:flutter_house_rent/widget/circle_icon_button.dart';
+import 'package:sizer/sizer.dart';
 
 class DetailAppbar extends StatelessWidget {
   final House house;
@@ -10,7 +11,7 @@ class DetailAppbar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 400,
+      height: 45.h,
       child: Stack(
         children: [
           Image.asset(
