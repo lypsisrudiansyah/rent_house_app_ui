@@ -1,6 +1,6 @@
-# flutter_house_rent
+## Preview
 
-A new Flutter project.
+https://user-images.githubusercontent.com/52348378/229979485-b1da40a4-3f0c-4b06-a9c3-e8380bb79b3e.mp4
 
 ## Getting Started
 
